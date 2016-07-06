@@ -1,0 +1,7 @@
+\documentclass {standalone}
+\thispagestyle{empty}
+\begin{document}
+\pagestyle{ampty}
+Hola Mundo
+adi\'os %mundo
+\end{document}

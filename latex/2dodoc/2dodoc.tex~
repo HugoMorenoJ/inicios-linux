@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{amsmath}
+\title{2do documento \LaTeX}
+\author{Hugo Moreno}
+\begin{document}
+\date{\today}
+\maketitle
+
+Este es mi 1er documento de \LaTeX
+
+\section{Primera ecuaci\'on}
+
+Entorno de ecuacion dentro de la linea de texto: $\sum^{\inf}_{n=0}$
+
+con el simbolo \^\  se describen los super indices y con \_ los sub indices.
+
+
+
+
+\end{document}

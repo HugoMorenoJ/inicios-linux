@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{amsmath}
+\title{2do documento \LaTeX}
+\author{Hugo Moreno}
+\begin{document}
+\date{\today}
+\maketitle
+
+Este es mi 1er documento de \LaTeX
+
+\section{Primera ecuaci\'on}
+
+Entorno de ecuacion dentro de la linea de texto: $\sum^{\infty}_{n=0}$
+
+con el simbolo \^\  se describen los super indices y con \_ los sub indices.
+
+\begin{enumerate}
+\item \emph{ecuation} simple
+\item \emph{split equations}
+\end{enumerate}
+
+\begin{equation}
+\frac{d \hat{\theta}}{dt} = \sum^{n}_{k_{t}=1} C^{*}_{n}(k_{t})
+\end{equation}
+
+\begin{equation*}
+\frac{d \hat{\theta}}{dt} = \sum^{n}_{k_{t}=1} C^{*}_{n}(k_{t})
+\end{equation*}
+
+\begin{equation}
+\begin{split}
+	P_{c} =& \pi D  \\ 
+	=& 2 \pi r
+\end{split}
+\end{equation}
+
+\begin{subequations}
+\begin{align}
+	P_{c} =& \pi D  \\ 
+	=& 2 \pi r
+\end{align}
+\end{subequations}
+
+
+\end{document}
