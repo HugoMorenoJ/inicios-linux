@@ -1,3 +1,6 @@
+#
+#
+#
 set terminal epslatex color colortext dashed standalone 
 
 set xlabel "{\\Large Photon Energy (eV)}"
